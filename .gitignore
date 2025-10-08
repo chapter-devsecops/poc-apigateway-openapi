@@ -1,0 +1,37 @@
+# Archivos locales de Terraform
+*.tfstate
+*.tfstate.*
+# *.tfvars
+# *.tfvars.json
+
+# Archivos de bloqueo
+.terraform.lock.hcl
+
+# Directorio de trabajo local de Terraform
+.terraform/
+.terraform.d/
+
+# Archivos de logs o debug
+crash.log
+crash.*.log
+*.log
+
+# Archivos temporales
+*.bak
+*.tmp
+*.backup
+*.old
+
+# Archivos generados por proveedores o herramientas externas
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Archivos de salida o configuración personalizada
+terraform.tfplan
+*.tfplan
+
+
+
+
