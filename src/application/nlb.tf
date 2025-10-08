@@ -23,7 +23,7 @@ module "network_load_balancer_poc" {
 
 
 
-module "lb_target_group_ms_poc" {
+module "lb_target_group_poc" {
   source  = "../modules/networking/vpc/target_group"
   tg_name = "${var.env}-tg-ms-poc"
   vpc_id  = module.vpc_poc.vpc_id
